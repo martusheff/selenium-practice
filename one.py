@@ -9,7 +9,7 @@ path = "/Applications/chromedriver"
 driver =  webdriver.Chrome(path)
 
 driver.get("https://techwithtim.net")
-driver.get("https://techwithtim.net")
+
 print(driver.title)
 
 search = driver.find_element_by_name("s")
